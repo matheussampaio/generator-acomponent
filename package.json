@@ -1,0 +1,32 @@
+{
+  "name": "generator-acomponent",
+  "version": "0.0.0-development",
+  "description": "Create Angular 1.5 components.",
+  "files": [
+    "generators/app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Matheus Sampaio <matheus@sampaio.us> (http://matheus.sampaio.us)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "yeoman-generator": "^0.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheussampaio/urionlinejudge-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/matheussampaio/generator-acomponent/issues"
+  },
+  "homepage": "https://github.com/matheussampaio/generator-acomponent",
+  "preferGlobal": true,
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  }
+}

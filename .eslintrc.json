@@ -1,0 +1,57 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node" : true,
+        "jasmine": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "warn",
+            4
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ],
+        "no-extra-semi":[
+            "warn"
+        ],
+        "no-undef" : [
+            "warn"
+        ],
+        "require-jsdoc": ["warn", {
+            "require": {
+                "FunctionDeclaration": true,
+                "MethodDefinition": true,
+                "ClassDeclaration": true
+            }
+        }]
+    },
+    "globals": {
+        "angular": true,
+        "moment": true,
+        "google": true,
+        "socket": true,
+        "io": true,
+        "d3": true,
+        "$": true,
+        "_": true,
+        "StringMask": true,
+        "Chart": true,
+        "Switchery": true,
+        "Dropzone": true
+    }
+}
