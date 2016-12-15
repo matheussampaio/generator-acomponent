@@ -24,6 +24,7 @@
   "homepage": "https://github.com/matheussampaio/generator-acomponent",
   "preferGlobal": true,
   "scripts": {
+      "test": "echo 0",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
