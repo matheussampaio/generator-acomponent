@@ -6,7 +6,7 @@
 Yeoman Angular 1.5 Component Generator
 ======================================
 
-# How to install:
+## How to install:
 ```shell
 $ npm i -g yo generator-acomponent
 ```
