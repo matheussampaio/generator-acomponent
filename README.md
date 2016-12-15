@@ -1,4 +1,7 @@
+[![npm version](https://badge.fury.io/js/generator-acomponent.svg)](https://badge.fury.io/js/generator-acomponent)
 [![Build Status](https://travis-ci.org/matheussampaio/generator-acomponent.svg?branch=master)](https://travis-ci.org/matheussampaio/generator-acomponent)
+[![Dependency Status](https://david-dm.org/matheussampaio/generator-acomponent.svg)](https://david-dm.org/matheussampaio/generator-acomponent)
+[![devDependency Status](https://david-dm.org/matheussampaio/generator-acomponent/dev-status.svg)](https://david-dm.org/matheussampaio/generator-acomponent#info=devDependencies)
 
 Yeoman Angular 1.5 Component Generator
 ======================================
