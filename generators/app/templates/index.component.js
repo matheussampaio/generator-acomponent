@@ -9,5 +9,5 @@ angular
     .module('<%= moduleName %>')
     .component('<%= componentCamelCaseName %>', {
         controller: <%= componentCamelCapitalizeCaseName %>Controller,
-        template: '<%= componentKebabCaseName %>/<%= componentKebabCaseName %>.html'
+        templateUrl: '<%= componentKebabCaseName %>/<%= componentKebabCaseName %>.html'
     });
